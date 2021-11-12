@@ -115,6 +115,7 @@ private void swap(int[] a, int i, int j) {
 ```html
 Given [1,1,1,2,2,3] and k = 2, return [1,2].
 ```
+此处运用了bucket sort的思想，但not exactly the bucket sort.
 
 设置若干个桶，每个桶存储出现频率相同的数。桶的下标表示数出现的频率，即第 i 个桶中存储的数出现的频率为 i。
 
